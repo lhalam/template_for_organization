@@ -1,0 +1,14 @@
+{
+  "name": "web-app-template",
+  "version": "1.0.0",
+  "description": "Web application template",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "echo 'Add your development server script here'",
+    "build": "echo 'Add your build script here'",
+    "test": "echo 'Add your test script here'"
+  },
+  "keywords": ["web", "template"],
+  "author": "",
+  "license": "MIT"
+}

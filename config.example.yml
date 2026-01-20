@@ -1,0 +1,45 @@
+# Example configuration file for GitHub organization creation
+# Copy this file to config.yml and update with your settings
+
+github:
+  # Your GitHub personal access token with admin:org scope
+  token: "your_github_token_here"
+  
+organization:
+  # Name of the organization to create
+  name: "example-org"
+  
+  # Display name (optional)
+  display_name: "Example Organization"
+  
+  # Organization description
+  description: "An example organization created using Python scripts"
+  
+  # Organization email
+  email: "admin@example.com"
+  
+  # Organization website (optional)
+  website: "https://example.com"
+  
+  # Organization location (optional)
+  location: "San Francisco, CA"
+  
+  # Billing email (optional)
+  billing_email: "billing@example.com"
+
+repositories:
+  # List of repositories to create in the organization
+  - name: "example-repo-1"
+    description: "First example repository"
+    private: false
+    template: "basic"
+    
+  - name: "example-repo-2"
+    description: "Python project repository"
+    private: false
+    template: "python"
+    
+  - name: "example-repo-3"
+    description: "Web application repository"
+    private: true
+    template: "web"
